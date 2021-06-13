@@ -1,10 +1,11 @@
 # todo-list Aplication in React
 
-## Demo https://annasniegula.github.io/toDoList/
+## Demo https://annasniegula.github.io/todo-list-react/
 
 ## Description
 
-toDoList is an apllication created to hepl you organize every day tasks. It is easy to use, clear and suggestive.
+todo-list is an apllication created to hepl you organize every day tasks. It is easy to use, clear and suggestive.
+
 ## Instruction
 
 - fill input "Co jest do zrobienia?" with your task
