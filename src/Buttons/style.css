@@ -1,4 +1,4 @@
-.buttons__button {
+.buttons {
     background-color: hsl(0, 0%, 100%);
     color: hsl(180, 100%, 25%);
     transition: color 0.3s;
@@ -8,7 +8,7 @@
 }
 
 @media(max-width: 767px) {
-    .buttons__button {
+    .buttons {
         flex-basis: 100%;
         flex-direction: column;
         padding: 10px;
@@ -16,14 +16,14 @@
     }
 }
 
-.buttons__button:hover {
+.buttons:hover {
     color: hsl(180, 100%, 35%);
 }
 
-.buttons__button:active {
+.buttons:active {
     color: hsl(180, 100%, 40%);
 }
 
-.buttons__button:disabled {
+.buttons:disabled {
     color: hsl(0, 0%, 80%);
 }
