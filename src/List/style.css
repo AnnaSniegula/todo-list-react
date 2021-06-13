@@ -33,7 +33,7 @@
     color: hsl(0, 0%, 100%);
     margin: 5px;
     text-align: center;
-    transition: color 0.3s;
+    transition: 0.5s linear;
 }
 
 .list__button--remove {
