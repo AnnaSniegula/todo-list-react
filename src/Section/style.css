@@ -1,10 +1,9 @@
-.section{
+.section {
     background-color: white;
     margin-bottom: 10px;
-   
 }
 
-.section__header{
+.section__header {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 20px;
@@ -14,12 +13,11 @@
     padding: 20px;
 }
 
-@media(max-width: 757px){
-    .section__header{
+@media(max-width: 757px) {
+    .section__header {
         grid-template-columns: 1fr;
     }
 }
-
 
 .section__title {
     font-size: 20px;
@@ -32,7 +30,5 @@
 .section__title--tasks {
     font-size: 20px;
     font-weight: bold;
-    padding: 0px 20px; 
+    padding: 0px 20px;
 }
-
-

@@ -6,7 +6,7 @@
 }
 
 .list__item {
-    border-bottom: 1px solid hsl(0, 0%, 93%) ;
+    border-bottom: 1px solid hsl(0, 0%, 93%);
     display: grid;
     align-items: center;
     padding: 5px;
@@ -37,18 +37,17 @@
 }
 
 .list__button--remove {
-    background-color:  hsl(0, 100%, 50%);
+    background-color: hsl(0, 100%, 50%);
 }
 
 .list__button--remove:hover {
-    background-color:  hsl(0, 100%, 60%);
+    background-color: hsl(0, 100%, 60%);
 }
 
-
 .list__button--done {
-    background-color:  hsl(120, 100%, 25%);
+    background-color: hsl(120, 100%, 25%);
 }
 
 .list__button--done:hover {
-    background-color:  hsl(120, 100%, 35%);
+    background-color: hsl(120, 100%, 35%);
 }

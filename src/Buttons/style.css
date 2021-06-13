@@ -7,7 +7,7 @@
     display: flex;
 }
 
-@media(max-width: 767px){
+@media(max-width: 767px) {
     .buttons__button {
         flex-basis: 100%;
         flex-direction: column;
@@ -16,14 +16,14 @@
     }
 }
 
-.buttons__button:hover{
+.buttons__button:hover {
     color: hsl(180, 100%, 35%);
 }
 
-.buttons__button:active{
+.buttons__button:active {
     color: hsl(180, 100%, 40%);
 }
-  
-.buttons__button:disabled{
+
+.buttons__button:disabled {
     color: hsl(0, 0%, 80%);
 }
