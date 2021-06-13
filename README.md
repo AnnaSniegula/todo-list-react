@@ -1,4 +1,4 @@
-# toDoList Aplication in React
+# todo-list Aplication in React
 
 ## Demo https://annasniegula.github.io/toDoList/
 
