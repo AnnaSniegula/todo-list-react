@@ -6,8 +6,6 @@ import Header from "./Header";
 import Container from "./Container";
 import { useState, useEffect } from "react";
 
-
-
 function App() {
   const [hideDone, setHideDone] = useState(false);
 
