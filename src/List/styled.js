@@ -52,11 +52,11 @@ export const Button = styled.button`
     ${({remove}) => remove && css`
     background-color: hsl(0, 100%, 50%);
 
-        &:hover{
+        &:hover {
             background-color: hsl(0, 100%, 60%); 
         }
 
-        &:active{
+        &:active {
             background-color: hsl(0, 100%, 70%); 
         }
 
