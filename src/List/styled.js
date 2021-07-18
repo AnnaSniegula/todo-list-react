@@ -1,13 +1,13 @@
 import styled, { css } from "styled-components";
 
 export const TasksList = styled.ul`
-    background-color: hsl(0, 0%, 100%);
+    background-color: ${({theme}) => theme.colors.white};
     padding: 30px;
     margin: 0;
 `;
 
 export const Item = styled.li`  
-    border-bottom: 1px solid hsl(0, 0%, 93%);
+    border-bottom: 1px solid ${({theme}) => theme.colors.grey};
     display: grid;
     align-items: center;
     padding: 5px;
@@ -31,37 +31,33 @@ export const Button = styled.button`
     width: 30px;
     height: 30px;
     border: none;
-    color: hsl(0, 0%, 100%);
+    color: ${({theme}) => theme.colors.white};
     margin: 5px;
     text-align: center;
     transition: 0.5s linear;
 
     ${({toggleDone}) => toggleDone && css`
-    background-color: hsl(120, 100%, 25%);
+    background-color: ${({theme}) => theme.colors.green};
 
         &:hover {
-            background-color: hsl(120, 100%, 35%);
+            filter: brightness(110%);
         }
 
         &:active {
-            background-color: hsl(120, 100%, 25%);
+            filter: brightness(130%); 
         }
-
     `}
 
     ${({remove}) => remove && css`
-    background-color: hsl(0, 100%, 50%);
+    background-color: ${({theme}) => theme.colors.red};
 
         &:hover {
-            background-color: hsl(0, 100%, 60%); 
-        }
+            filter: brightness(110%);
 
         &:active {
-            background-color: hsl(0, 100%, 70%); 
+            filter: brightness(150%); 
         }
-
     `}
-
 `;
 
 

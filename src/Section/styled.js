@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
 export const StyledSection = styled.section`
-    background-color: white;
+    background-color: ${({theme}) => theme.colors.white};
     margin-bottom: 10px;
 `;
 
@@ -10,11 +10,12 @@ export const Header = styled.header`
     grid-template-columns: auto auto;
     grid-gap: 20px;
     justify-content: space-between;
-    border-bottom: 2px solid hsl(0, 0%, 93%);
+    border-bottom: 2px solid ${({theme}) => theme.colors.grey};
     align-items: center;
     padding: 20px;
 
-    @media (max-width: 757px) {
+
+    @media (max-width: ${({theme}) => theme.breakpoints.mobile}px) {
         grid-template-columns: 1fr;  
     }
 `;

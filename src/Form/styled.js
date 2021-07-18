@@ -7,21 +7,21 @@ export const StyledForm = styled.form`
     display: flex;
     justify-content: space-between;
 
-    @media(max-width:767px) {
+    @media(max-width:${({theme}) => theme.breakpoints.mobile}px) {
         flex-direction: column;  
-}
+    }
 `;
 
 export const Input = styled.input` 
-    border: 2px solid hsl(0, 0%, 93%);
+    border: 2px solid ${({theme}) => theme.colors.grey};
     padding: 10px;
     flex-grow: 1;
     margin: 10px;
 `;
 
 export const FormButton = styled.button`
-    background-color: hsl(180, 100%, 25%);
-    color: hsl(0, 0%, 100%);
+    background-color: ${({theme}) => theme.colors.teal};
+    color: ${({theme}) => theme.colors.white};
     padding: 10px;
     border: none;
     font-size: 15px;
@@ -30,11 +30,11 @@ export const FormButton = styled.button`
     transition: 0.5s linear;
 
     &:hover {
-        background-color: hsl(180, 100%, 30%);
+        filter: brightness(110%); 
         transform: scale(1.1);
     }
 
     &:active {
-        background-color: hsl(180, 100%, 35%);   
+        filter: brightness(130%); 
     }
 `;
