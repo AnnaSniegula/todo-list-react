@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledForm = styled.form`
-    background-color: hsl(0, 0%, 100%);
+    background-color: ${({theme}) => theme.colors.white};
     border: 0px;
     padding: 20px;
     display: flex;
