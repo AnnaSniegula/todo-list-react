@@ -55,7 +55,7 @@ export const Button = styled.button`
             filter: brightness(110%);
 
         &:active {
-            filter: brightness(150%); 
+            filter: brightness(130%); 
         }
     `}
 `;
