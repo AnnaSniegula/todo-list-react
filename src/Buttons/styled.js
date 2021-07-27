@@ -20,15 +20,15 @@ export const Button = styled.button`
         align-items: center;  
     }
 
-         &:hover {
-            filter: brightness(110%);
-        }
+    &:hover {
+        filter: brightness(110%);
+    }
 
-        &:active {
-            filter: brightness(120%);
-        }
+    &:active {
+        filter: brightness(120%);
+    }
 
-        &:disabled {
+    &:disabled {
         color: ${({theme}) => theme.colors.darkGrey};
-        }
+    }
 `;

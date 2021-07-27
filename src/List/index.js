@@ -6,22 +6,22 @@ const List = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
       <Item
         key={task.id}
         hidden={task.done && hideDone}
-       >
-    <Button toggleDone
-      onClick={() => toggleTaskDone(task.id)}
-    >
-      {task.done ? "✓" : ""}
-    </Button>
-    <Content done={task.done}>
-      {task.content}
-    </Content>
-    <Button remove
-      onClick={() => removeTask(task.id)}
-    >
-      🗑
-    </Button>
+      >
+        <Button toggleDone
+          onClick={() => toggleTaskDone(task.id)}
+        >
+          {task.done ? "✓" : ""}
+        </Button>
+        <Content done={task.done}>
+          {task.content}
+        </Content>
+        <Button remove
+          onClick={() => removeTask(task.id)}
+        >
+          🗑
+        </Button>
       </Item>
-))}
+    ))}
   </TasksList >
 );
 
