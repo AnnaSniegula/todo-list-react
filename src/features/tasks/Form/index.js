@@ -9,7 +9,7 @@ const Form = () => {
 
   const inputRef = useRef(null);
 
-  const dispach = useDispatch();
+  const dispatch = useDispatch();
 
   const onFormSubmit = (event) => {
     event.preventDefault();
@@ -18,7 +18,7 @@ const Form = () => {
       return;
     }
 
-    dispach(addTask({
+    dispatch(addTask({
       content: newTaskContent,
       done: false,
       id: nanoid(),
