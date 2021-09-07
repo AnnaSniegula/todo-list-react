@@ -7,7 +7,7 @@ import Container from "../../../common/Container";
 import Search from "../Search";
 
 
-function TasksPage() {
+export const TasksPage = () => {
   return (
     <Container>
       <Header title="Lista zadań" />
@@ -25,4 +25,4 @@ function TasksPage() {
   );
 };
 
-export default TasksPage;
+
