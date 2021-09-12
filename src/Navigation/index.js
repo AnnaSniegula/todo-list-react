@@ -1,5 +1,5 @@
 import { toAuthor, toTasks } from "../routes";
-import { List, StyledNavLink, Item } from "./styled";
+import { StyledNavLink, List, Item } from "./styled";
 
 export default () => {
     return (
