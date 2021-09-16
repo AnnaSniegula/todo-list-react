@@ -6,6 +6,7 @@ export const theme = {
      teal:"hsl(180, 100%, 25%)",
      green:"hsl(120, 100%, 25%)",
      red:"hsl(0, 100%, 50%)",
+     black:"hsl(0, 0%, 0%) ",
     },
     breakpoints: {
         mobile: 767
