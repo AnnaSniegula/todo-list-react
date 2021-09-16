@@ -7,7 +7,8 @@ import {
     selectHideDone,
     selectAreAllTasksDone,
 } from "../../tasksSlice";
-import { ButtonsContainer, Button } from "./styled";
+import { ButtonsContainer} from "./styled";
+import Button  from "../Button";
 
 const Buttons = () => {
     const tasks = useSelector(selectTasks);
