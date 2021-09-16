@@ -1,13 +1,24 @@
 import styled, { css } from "styled-components";
+import { Link } from "react-router-dom";
+
+export const StyledLink = styled(Link)`
+text-decoration: none;
+color:${({ theme }) => theme.colors.black};
+
+    &:hover{
+        text-decoration: underline;
+        color: ${({ theme }) => theme.colors.teal};
+    }
+`;
 
 export const TasksList = styled.ul`
-    background-color: ${({theme}) => theme.colors.white};
+    background-color: ${({ theme }) => theme.colors.white};
     padding: 30px;
     margin: 0;
 `;
 
 export const Item = styled.li`  
-    border-bottom: 1px solid ${({theme}) => theme.colors.grey};
+    border-bottom: 1px solid ${({ theme }) => theme.colors.grey};
     display: grid;
     align-items: center;
     padding: 5px;
@@ -31,13 +42,13 @@ export const Button = styled.button`
     width: 30px;
     height: 30px;
     border: none;
-    color: ${({theme}) => theme.colors.white};
+    color: ${({ theme }) => theme.colors.white};
     margin: 5px;
     text-align: center;
     transition: 0.5s linear;
 
-    ${({toggleDone}) => toggleDone && css`
-    background-color: ${({theme}) => theme.colors.green};
+    ${({ toggleDone }) => toggleDone && css`
+    background-color: ${({ theme }) => theme.colors.green};
 
         &:hover {
             filter: brightness(110%);
@@ -48,8 +59,8 @@ export const Button = styled.button`
         }
     `}
 
-    ${({remove}) => remove && css`
-    background-color: ${({theme}) => theme.colors.red};
+    ${({ remove }) => remove && css`
+    background-color: ${({ theme }) => theme.colors.red};
 
         &:hover {
             filter: brightness(110%);
