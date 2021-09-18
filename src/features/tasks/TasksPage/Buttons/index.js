@@ -7,8 +7,8 @@ import {
     selectHideDone,
     selectAreAllTasksDone,
 } from "../../tasksSlice";
-import { ButtonsContainer} from "./styled";
-import Button  from "../Button";
+import { ButtonsContainer } from "./styled";
+import Button from "../Button";
 
 const Buttons = () => {
     const tasks = useSelector(selectTasks);
@@ -18,9 +18,6 @@ const Buttons = () => {
     const dispatch = useDispatch();
     return (
         <ButtonsContainer>
-            <Button onClick={() => dispatch(fetchExampleTasks())}>
-                Pobierz przykładowe zadania
-            </Button>
             {tasks.length > 0 && (
                 <>
                     <Button onClick={() => dispatch(toggleHideDone())} >
