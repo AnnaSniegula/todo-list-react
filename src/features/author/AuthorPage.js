@@ -10,7 +10,7 @@ export const AuthorPage = () => (
             body={<>
                 <Body>
                     <p>Szukając nowych ścieżek zawodowych i rozwojowych wybrałam programowanie.
-                        Tworzenie czegoś od początku, a przy tym obserwacja wizualnego efektu moich wysiłków sprawiają mi bardzo dużą satysfakcję. 🔥</p>
+                        Tworzenie czegoś od początku, a przy tym obserwacja wizualnego efektu moich wysiłków, sprawiają mi bardzo dużą satysfakcję. 🔥</p>
                     <p>Godziny spędzone przy komputerze równoważę aktywnością fizyczną.
                         Miesiące ciepłe spędzam na świeżym powietrzu. Lubię biegać, jeździć rowerem, spacerować w lesie i pływać kajakiem.
                         Resztę wolnego czasu pochłaniają mi pszczoły, które hodujemy wraz z mężem 🐝.
