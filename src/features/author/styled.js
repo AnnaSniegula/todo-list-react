@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Body = styled.div`  
-    padding: 20px;
-    margin-left: 20px;
+    padding-bottom: 20px;
+    margin: 30px;
+    text-align: justify;
 `;
