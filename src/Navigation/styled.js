@@ -26,6 +26,7 @@ padding: 0;
 display: flex;
 justify-content: center;
 list-style: none;
+font-family: 'Lato', sans-serif;
 `;
 
 
